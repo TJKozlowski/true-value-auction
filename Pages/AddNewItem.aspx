@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddNewItem.aspx.cs" Inherits="group4LICA.AddNewItem" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddNewItem.aspx.cs" Inherits="Group2Project.AddNewItem" %>
 
 <!DOCTYPE html>
 

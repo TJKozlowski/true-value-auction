@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace group4LICA
+namespace Group2Project
 {
     public partial class AddNewItem : System.Web.UI.Page
     {

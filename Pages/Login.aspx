@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="group4LICA.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Group2Project.Login" %>
 
 <!DOCTYPE html>
 
@@ -53,14 +53,14 @@
             <tr>
                 <td class="auto-style4"></td>
                 <td class="auto-style5">
-                    <asp:Label ID="lblLogin" runat="server" Text="User Login"></asp:Label>
+                    <p>User Login</p>
                 </td>
                 <td class="auto-style6"></td>
             </tr>
             <tr>
                 <td class="auto-style7"></td>
                 <td class="auto-style8">
-                    <asp:Label ID="lblUsername" runat="server" Text="Username:"></asp:Label>
+                    <p>Username:</p>
                 </td>
                 <td class="auto-style9">
                     <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
@@ -69,7 +69,7 @@
             <tr>
                 <td class="auto-style13"></td>
                 <td class="auto-style11">
-                    <asp:Label ID="lblPassword" runat="server" Text="Password"></asp:Label>
+                    <p>Password:</p>
                 </td>
                 <td class="auto-style12">
                     <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
@@ -78,7 +78,7 @@
             <tr>
                 <td class="auto-style13">&nbsp;</td>
                 <td class="auto-style11">
-                    <asp:Button ID="btnLogin" runat="server" Text="Login" />
+                    <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" />
                 </td>
                 <td class="auto-style12">&nbsp;</td>
             </tr>
